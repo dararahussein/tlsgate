@@ -1,0 +1,6 @@
+-- Atomic sliding-window rate limiter script for Redis.
+-- KEYS[1]: rate-limit bucket key
+-- ARGV[1]: current timestamp (ms)
+-- ARGV[2]: window duration (ms)
+-- ARGV[3]: max allowed requests
+-- ARGV[4]: unique request nonce

@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments & packaging
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# eBPF / XDP build artifacts
+*.o
+*.bpf.o
+
+# TLS certificates, keys & packet captures
+*.pem
+*.key
+*.crt
+*.pcap
+*.pcapng
+
+# Environment & secrets
+.env
+*.local
+
+# Testing & type-checking caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local development notes
+TASKS.md
+notes/
+scratch/
+*.local.md
